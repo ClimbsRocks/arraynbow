@@ -41,3 +41,11 @@ $(document).ready(function(){
     $('body').removeClass('violet');
   });
 });
+
+peekaboo({
+  titles: ["A", "AR", "ARR", "ARRA", "ARRAY", "ARRAYN", "ARRAYNB", "ARRAYNBO", "ARRAYNBOW", "RRAYNBOW", "RAYNBOW", "AYNBOW", "YNBOW", "NBOW", "BOW", "OW", "W", " " ],
+  welcomeBack: "Welcome back!",
+  defaultDelay: 200,
+  initialDelay: 200,
+  mode: "ordered"
+});
